@@ -6,7 +6,7 @@ const Logs = ({ inspectionLogs, handleDeleteLog, handleSubmitLogs }) => {
   return (
     <div className="logs">
       <button className="submit-logs-button" onClick={handleSubmitLogs}>
-        Submit Logs
+        Download Logs to Excel
       </button>
       <h2 className="Inspection-log-title">Inspection Logs</h2>
       <table id="inspection-table">

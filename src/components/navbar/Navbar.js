@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function FellFabNavbar() {
@@ -13,12 +12,8 @@ function FellFabNavbar() {
   return (
     <Navbar expand="lg" className="nav">
       <Container>
-        <Navbar.Brand as={Link} to="/" className="nav-options">
-          <img
-            src="/Fellfab-Blue-Logo.png"
-            alt="FELLFAB Trademark Logo"
-            className="logo"
-          />
+        <Navbar.Brand to="/" className="nav-options">
+          QA Application
         </Navbar.Brand>
         <Nav className="me-auto"></Nav>
       </Container>

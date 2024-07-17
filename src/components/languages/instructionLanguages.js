@@ -2,6 +2,7 @@ export const translations = {
   en: {
     instructions: "Instructions",
     steps: [
+      "Note: You can use Admin Privileges to add or delete categories and details using the secure password: 1234",
       "1. Fill out the initial form with the required information. (Work Order Number, Industry/Work Center, Product Number/Part Number, and your details as the inspector.)",
       "2. Click 'Proceed' to start the inspection process.",
       "3. Use the 'Approve' or 'Reject' buttons to log each inspection result.",

@@ -1,0 +1,30 @@
+/* src/components/styles/ContinueRejectionPrompt.css */
+
+.continue-rejection-prompt {
+    text-align: center;
+    margin: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.continue-rejection-prompt h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+  
+.continue-rejection-prompt button {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+  
+.continue-rejection-prompt button:hover {
+    background: #0056b3;
+}
+  

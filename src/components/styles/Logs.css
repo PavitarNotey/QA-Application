@@ -1,0 +1,100 @@
+
+.logs {
+  max-width: 800px;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-size: 0.75vw;
+}
+.Inspection-log-title {
+  font-size: 36px;
+}
+.logs h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logs table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.logs th,
+.logs td {
+  padding: 15px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.logs th {
+  background: #007bff;
+  color: white;
+}
+
+.logs tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+.logs tr:hover {
+  background: #ddd;
+}
+
+/* Styles for Download Excel button */
+
+.submit-logs-button {
+  transition: 0.2;
+  display: block;
+  margin: 20px auto;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+}
+
+.submit-logs-button:hover {
+  background-color: #218838;
+}
+
+.delete-button {
+  background-color: #ff6347;
+  color: white;
+  padding: 1px 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .logs {
+    font-size: 0.8em;
+  }
+
+  .submit-logs-button {
+    font-size: 0.8em;
+    padding: 6px 16px;
+  }
+
+  .delete-button {
+    font-size: 0.6em;
+    padding: 3px 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logs {
+    font-size: 0.7em;
+  }
+
+  .submit-logs-button {
+    font-size: 0.7em;
+    padding: 4px 14px;
+  }
+
+  .delete-button {
+    font-size: 0.5em;
+    padding: 2px 4px;
+  }
+}

@@ -1,0 +1,40 @@
+/* src/components/InspectionPage.css */
+
+.ApproveReject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+button.Approval, button.Rejection {
+    margin: 10px;
+}
+  
+.Approval {
+    background-color: rgb(109, 242, 113);
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.Approval:hover {
+    background-color: rgb(85, 193, 88);
+}
+  
+.Rejection {
+    background-color: rgb(242, 109, 109);
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.Rejection:hover {
+    background-color: rgb(202, 88, 88);
+}

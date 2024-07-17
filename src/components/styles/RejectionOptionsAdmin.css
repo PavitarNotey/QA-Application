@@ -1,0 +1,125 @@
+/* styles/RejectionOptionsAdmin.css */
+
+.admin-panel {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-panel-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.add-category-section,
+.add-detail-section,
+.edit-options-section {
+  margin-bottom: 20px;
+}
+
+.add-category-section h4,
+.add-detail-section h4,
+.edit-options-section h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.admin-panel h5 {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.category-input,
+.detail-input,
+.category-select {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.admin-panel button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-category-button:hover,
+.add-detail-button:hover,
+.panel-button:hover {
+  background-color: #45a049;
+}
+
+.panel-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel-buttons .panel-button {
+  width: 30%;
+}
+
+.admin-panel ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-section {
+  margin-bottom: 20px;
+}
+
+.category-title {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.remove-category-button {
+  background-color: #f44336;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.remove-category-button:hover {
+  background-color: #e53935;
+}
+
+.detail-item {
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-detail-button:hover {
+  background-color: #e53935;
+}
+
+.admin-panel li button {
+  background-color: #f44336;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+

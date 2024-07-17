@@ -1,0 +1,20 @@
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+  
+.footer-option {
+    color: #bbb;
+    margin: 0 50px;
+    text-decoration: none;
+}
+
+.footer-option:hover {
+    color: white;
+}
+  

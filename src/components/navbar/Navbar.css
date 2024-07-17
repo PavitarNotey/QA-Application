@@ -1,0 +1,56 @@
+/* Navbar.css */
+
+.nav {
+  color: white;
+  background-color: black;
+  transition: color 0.3s, border-bottom-color 0.3s;
+  padding: 20px 0; /* Increase padding to make the navbar bigger */
+}
+
+.nav-options {
+  color: white;
+  border-bottom: 1px solid transparent;
+  font-size: 1.5rem; /* Increase font size for better visibility */
+  padding: 10px 15px; /* Add padding for better spacing */
+}
+
+.nav-options:hover,
+.nav-options:active {
+  color: #007bff;
+}
+
+/* Apply styles to dropdown title */
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  font-size: 1.25rem; /* Increase font size for dropdown items */
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .nav-link:active,
+.navbar-nav .nav-item .nav-link:focus {
+  color: #99fffc;
+}
+
+/* Additional styling for navbar brand */
+.navbar-brand {
+  font-size: 2rem; /* Increase font size for the brand */
+  padding: 10px 15px; /* Add padding for better spacing */
+}
+
+/* Increase container size */
+.container {
+  max-width: 1200px; /* Adjust container width if needed */
+}
+
+.logo {
+  max-height: 40px; /* Adjust the height as needed */
+  height: auto;
+  width: auto;
+}
+
+/* Ensure responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .logo {
+    max-height: 30px; /* Adjust the height for smaller screens */
+  }
+}

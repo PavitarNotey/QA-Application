@@ -1,7 +1,8 @@
 # QA Application
 
 Overview
-The FellFab QA Application is designed to automate the company’s quality assurance process. This application allows inspectors to log approvals and rejections, and users can download to Excel.
+The QA Application is designed to automate the company’s quality assurance process. This application allows inspectors to log approvals and rejections, and users can download to Excel.
+**THIS IS A COPY OF THE REAL APPLICATION FOR OUTSIDE VIEWERS**
 
 Features
 Log Management: Inspectors can log details of inspections.
@@ -13,13 +14,6 @@ Backend: Node.js, Express
 Database: MongoDB
 Libraries: Mongoose, API, XLSX
 Installation
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/PavitarNotey/FellFab-QA-Application.git
-cd FellFab-QA-Application
-Install dependencies:
 
 bash
 Copy code
